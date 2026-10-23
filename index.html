@@ -36,8 +36,8 @@ function makePDF(){
    txt(x,yy+1,'Prep: '+dateFmt(prep),8.2,false);
    const f='Frozen: '+dateFmt(frozen);txt(x+max-width(f,8.2),yy+1,f,8.2,false);
    yy+=13.5;txt(x,yy,'Use by Date: '+dateFmt(useby),8.7,false);
-   yy+=12.5;txt(x,yy,'Prepared by: '+chef,8.7,false);
-   yy+=12.0;txt(x,yy,'Consume within 24hrs once defrosted, reheat in the microwave at 60c or above.',7.1,false,.52);
+   yy+=9.2;txt(x,yy,'Prepared by: '+chef,8.7,false);
+   yy+=8.2;txt(x,yy,'Consume within 24hrs once defrosted, reheat in the microwave at 60c or above.',7.1,false,.52);
    yy+=12.0;const al='Allergen information: '+(p.selected.join(' - ')||'None selected');
    for(const line of split(al,max,8.0).slice(0,2)){txt(x,yy,line,8.0,false);yy+=9.0}
   }
