@@ -1,0 +1,18 @@
+{
+  "name": "Yarrie Frozen Food Labels",
+  "short_name": "Frozen Labels",
+  "description": "Yarrie Kitchen frozen food sticker labels",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#e9f0f1",
+  "theme_color": "#173c47",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
